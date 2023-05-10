@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+/* container generale */
+#gen_container {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    padding: 20px 50px 50px;
+    background-color: #fff;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* parte centrale */
+#container {
+    height: 80vh;
+}
+
+#grid {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: 1px solid black;
+    width: calc(100% / 10);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.blue {
+    background-color: rgb(39, 39, 212);
+}
