@@ -30,7 +30,12 @@ play.addEventListener('click',
             numbOfCell = i;
             square.innerHTML = numbOfCell;
 
-           
+            // interazione cella
+            square.addEventListener('click',
+                function () {
+                    square.classList.add("blue");
+                }
+            )
         }
 
     }
