@@ -14,6 +14,9 @@ play.addEventListener('click',
     function () {
         let cells = 100;
 
+        // reset
+        gridElement.innerHTML = "";
+
         // ciclo
         for (i = 1; i <= cells; i++) {
 
